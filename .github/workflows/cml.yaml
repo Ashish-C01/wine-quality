@@ -29,5 +29,5 @@ jobs:
           cat metrics.txt >> report.md
           cml publish ./feature_importance.png --md >> report.md
           cml publish ./residuals.png --md >> report.md
-          cmd comment report.md
+          cml comment create report.md
   
